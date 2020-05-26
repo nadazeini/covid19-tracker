@@ -97,7 +97,7 @@ class SearchTableViewController: UITableViewController,UISearchResultsUpdating {
         
              filteredData.removeAll(keepingCapacity: true)
         
-        let searchPredicate = NSPredicate(format: "SELF CONTAINS[c] %@", searchController.searchBar.text!)
+        let searchPredicate = NSPredicate(format: "SELF BEGINSWITH[c] %@", searchController.searchBar.text!)
           let array = (data as NSArray).filtered(using: searchPredicate)
           filteredData = array as! [String]
         self.tableView.reloadData()
