@@ -15,9 +15,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" text="" id="sDR-6J-oTd">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CountryCell" rowHeight="77" id="Lk4-LF-QYH" customClass="CountryCell" customModule="virusTracker" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="77"/>
+                                <rect key="frame" x="0.0" y="72" width="414" height="77"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Lk4-LF-QYH" id="ITJ-IP-dli">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="77"/>
@@ -40,6 +45,9 @@
                         </prototypes>
                     </tableView>
                     <navigationItem key="navigationItem" id="Tio-ri-mpy"/>
+                    <connections>
+                        <outlet property="searchBar" destination="sDR-6J-oTd" id="UPX-eh-095"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X5d-a7-gRK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,7 +156,7 @@
                         <outlet property="activeCases" destination="5P9-MY-BHJ" id="fuZ-MR-sN3"/>
                         <outlet property="blackView" destination="mNy-jD-lFE" id="3CO-Lq-e8c"/>
                         <outlet property="confirmedCases" destination="zEB-EY-bMA" id="ujh-JX-UDv"/>
-                        <outlet property="deathsCases" destination="xXL-wE-X26" id="zSt-ki-nGP"/>
+                        <outlet property="deathsCases" destination="xXL-wE-X26" id="70l-WH-3WB"/>
                         <outlet property="greenView" destination="eaK-RE-CM4" id="QJN-Y5-iXL"/>
                         <outlet property="orangeView" destination="Mdg-jP-E2T" id="M9y-D1-GyI"/>
                         <outlet property="recoveredCases" destination="qzi-q9-tGd" id="dIL-nv-iK7"/>
@@ -181,6 +189,9 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhM-hk-BoN">
                                         <rect key="frame" x="8" y="75" width="358" height="58"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" staticText="YES" updatesFrequently="YES"/>
+                                        </accessibility>
                                         <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="27"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>

@@ -10,22 +10,19 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        var countries: [String] = []
-        for code in NSLocale.isoCountryCodes  {
-           let id = NSLocale.localeIdentifier(fromComponents: [NSLocale.Key.countryCode.rawValue: code])
-           let name = NSLocale(localeIdentifier: "en_UK").displayName(forKey: NSLocale.Key.identifier, value: id) ?? "Country not found for code: \(code)"
-           let country = name.replacingOccurrences(of: " ", with: "-")
-           countries.append(country)
-        }
-        for country in countries{
-           getStat(country: country)
-        }
+//        var countries: [String] = []
+//        for code in NSLocale.isoCountryCodes  {
+//           let id = NSLocale.localeIdentifier(fromComponents: [NSLocale.Key.countryCode.rawValue: code])
+//           let name = NSLocale(localeIdentifier: "en_UK").displayName(forKey: NSLocale.Key.identifier, value: id) ?? "Country not found for code: \(code)"
+//           let countryApiForm = name.replacingOccurrences(of: " ", with: "-")
+//            getStat(country: countryApiForm)
+//            let country = name.replacingOccurrences(of: "-", with: " ")
+//           countries.append(country)
+//        }
         return true
     }
+    
     
     // MARK: UISceneSession Lifecycle
 
