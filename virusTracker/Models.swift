@@ -10,7 +10,8 @@ import Foundation
 
 struct Stat: Codable {
     var Country: String
-    var Cases: Int
-    var Status: String
-    var Date: String
+    var Confirmed: Int
+    var Active: Int
+    var Recovered: Int
+    var Deaths: Int
 }
