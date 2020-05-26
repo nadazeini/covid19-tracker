@@ -1,0 +1,6 @@
+framework module Pods_virusTracker_virusTrackerUITests {
+  umbrella header "Pods-virusTracker-virusTrackerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

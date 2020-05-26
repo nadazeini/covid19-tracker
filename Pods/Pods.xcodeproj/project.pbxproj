@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028FE8698A46931D56AC520B043DDF01 /* Pods-virusTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF34FC0B3AD9D68C38844A805704A50 /* Pods-virusTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		257B5B7763D98751E644E37696BE7816 /* Pods-virusTracker-virusTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 310F775378EBAB0824BD8A646698E2DE /* Pods-virusTracker-virusTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48CFA106A25DEA3F117B7B63C15B0737 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		561CCA015B3AD4730668360372970761 /* Pods-virusTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A6D6F044BA0DC117DAF63CC624687E /* Pods-virusTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1851E1E87BE75C0B5E5E9DDC447636 /* Pods-virusTracker-virusTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A94CED3D0AEF4B97FEB2DCFD49E87A12 /* Pods-virusTracker-virusTrackerUITests-dummy.m */; };
+		B8E91F256EB736D289E7FCAB67E4BC59 /* Pods-virusTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D02EBC68F1222806E6B81867759DCFAE /* Pods-virusTrackerTests-dummy.m */; };
+		B916A0AD4B34CBDCB8DA11917BF2606E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FD179A315ED45E9AEBB182081C250B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FE38E79765329E6B8BF8F54E37A55EF7 /* Pods-virusTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E671D89A1FD761E3114DA729DB814919 /* Pods-virusTracker-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE3849D412EF92A04FD636A2C3AB69B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878DCD58BD20DF7BCA46FEA7898D97E2;
+			remoteInfo = "Pods-virusTracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B9A23254846C6FE485FD985C41F417 /* Pods-virusTracker-virusTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-virusTracker-virusTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F00AF8ED867FD5CCE301B5600A4202B /* Pods_virusTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_virusTracker.framework; path = "Pods-virusTracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC7F4A492B4D8DE7DC9B097EF77936B /* Pods-virusTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-virusTracker-Info.plist"; sourceTree = "<group>"; };
+		14CE00567A5EA8A53ADDABCDDE81F323 /* Pods-virusTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-virusTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		209037B28CA20FF3E2BF97D2F04C4FB6 /* Pods-virusTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-virusTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		21F853792CF60D9639D2AB52392EB1E2 /* Pods-virusTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-virusTracker.modulemap"; sourceTree = "<group>"; };
+		288826D3E251B9EC7F137094CB87D614 /* Pods-virusTracker-virusTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-virusTracker-virusTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29A6D6F044BA0DC117DAF63CC624687E /* Pods-virusTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-virusTracker-umbrella.h"; sourceTree = "<group>"; };
+		310F775378EBAB0824BD8A646698E2DE /* Pods-virusTracker-virusTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-virusTracker-virusTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D2F4B22D1D38EBED94D343C67D58A18 /* Pods-virusTracker-virusTrackerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-virusTracker-virusTrackerUITests-Info.plist"; sourceTree = "<group>"; };
+		4C6B31EBC9F6D762DB66CE14F8FF96FD /* Pods-virusTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-virusTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6251B49FB8E16732CA089F47FB6A5059 /* Pods-virusTracker-virusTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-virusTracker-virusTrackerUITests.modulemap"; sourceTree = "<group>"; };
+		645C843CA64E014DD1F48452E32DDD7A /* Pods_virusTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_virusTrackerTests.framework; path = "Pods-virusTrackerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0AC05F506FDAE3A3EB002BC4B21B75 /* Pods-virusTrackerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-virusTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		7770611B7BF1EA181B40747004BE04D3 /* Pods-virusTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-virusTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		77AD90BC3176955646E2A47BE38C3F98 /* Pods-virusTracker-virusTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-virusTracker-virusTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7877C4DCE1EA1E271168C15D156B2826 /* Pods-virusTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-virusTracker.release.xcconfig"; sourceTree = "<group>"; };
+		78CC106D69C80517E88F44992A339AFA /* Pods-virusTracker-virusTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-virusTracker-virusTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A94CED3D0AEF4B97FEB2DCFD49E87A12 /* Pods-virusTracker-virusTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-virusTracker-virusTrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		AD4D0074C001C34891087F47CAF652A9 /* Pods-virusTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-virusTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFDF307B502CD4532F1120ED545A1840 /* Pods-virusTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-virusTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		D02EBC68F1222806E6B81867759DCFAE /* Pods-virusTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-virusTrackerTests-dummy.m"; sourceTree = "<group>"; };
+		DEF34FC0B3AD9D68C38844A805704A50 /* Pods-virusTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-virusTrackerTests-umbrella.h"; sourceTree = "<group>"; };
+		E06243D54A800F5E2D63DA8CF8AB3AB9 /* Pods-virusTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-virusTrackerTests.modulemap"; sourceTree = "<group>"; };
+		E671D89A1FD761E3114DA729DB814919 /* Pods-virusTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-virusTracker-dummy.m"; sourceTree = "<group>"; };
+		F19C73D0833B1788DD931D38D8E2843C /* Pods-virusTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-virusTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD5DE2CA7D84D38731ED16EB6C6475CB /* Pods_virusTracker_virusTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_virusTracker_virusTrackerUITests.framework; path = "Pods-virusTracker-virusTrackerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CAB98A81B09432739BFAEDBD5603D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CFA106A25DEA3F117B7B63C15B0737 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3008C0CFCA45FC80B8275E30D3777560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B916A0AD4B34CBDCB8DA11917BF2606E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23EF13A368BF69E9F79259E5C935623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD179A315ED45E9AEBB182081C250B0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3FB26F149A4FCDD7E0E0BCD4BBBEF3 /* Pods-virusTracker */ = {
+			isa = PBXGroup;
+			children = (
+				21F853792CF60D9639D2AB52392EB1E2 /* Pods-virusTracker.modulemap */,
+				4C6B31EBC9F6D762DB66CE14F8FF96FD /* Pods-virusTracker-acknowledgements.markdown */,
+				AFDF307B502CD4532F1120ED545A1840 /* Pods-virusTracker-acknowledgements.plist */,
+				E671D89A1FD761E3114DA729DB814919 /* Pods-virusTracker-dummy.m */,
+				0FC7F4A492B4D8DE7DC9B097EF77936B /* Pods-virusTracker-Info.plist */,
+				29A6D6F044BA0DC117DAF63CC624687E /* Pods-virusTracker-umbrella.h */,
+				7770611B7BF1EA181B40747004BE04D3 /* Pods-virusTracker.debug.xcconfig */,
+				7877C4DCE1EA1E271168C15D156B2826 /* Pods-virusTracker.release.xcconfig */,
+			);
+			name = "Pods-virusTracker";
+			path = "Target Support Files/Pods-virusTracker";
+			sourceTree = "<group>";
+		};
+		236FC0F528359228E285540ACE3F736D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F00AF8ED867FD5CCE301B5600A4202B /* Pods_virusTracker.framework */,
+				FD5DE2CA7D84D38731ED16EB6C6475CB /* Pods_virusTracker_virusTrackerUITests.framework */,
+				645C843CA64E014DD1F48452E32DDD7A /* Pods_virusTrackerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C0638FE73A0DA86770A45EDDECFB150 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C3FB26F149A4FCDD7E0E0BCD4BBBEF3 /* Pods-virusTracker */,
+				86254422467228EB3A97FBBAD4D69CE8 /* Pods-virusTracker-virusTrackerUITests */,
+				F51343BB6B56AC837BE12A8CC0D7CE6E /* Pods-virusTrackerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		86254422467228EB3A97FBBAD4D69CE8 /* Pods-virusTracker-virusTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6251B49FB8E16732CA089F47FB6A5059 /* Pods-virusTracker-virusTrackerUITests.modulemap */,
+				03B9A23254846C6FE485FD985C41F417 /* Pods-virusTracker-virusTrackerUITests-acknowledgements.markdown */,
+				288826D3E251B9EC7F137094CB87D614 /* Pods-virusTracker-virusTrackerUITests-acknowledgements.plist */,
+				A94CED3D0AEF4B97FEB2DCFD49E87A12 /* Pods-virusTracker-virusTrackerUITests-dummy.m */,
+				3D2F4B22D1D38EBED94D343C67D58A18 /* Pods-virusTracker-virusTrackerUITests-Info.plist */,
+				310F775378EBAB0824BD8A646698E2DE /* Pods-virusTracker-virusTrackerUITests-umbrella.h */,
+				78CC106D69C80517E88F44992A339AFA /* Pods-virusTracker-virusTrackerUITests.debug.xcconfig */,
+				77AD90BC3176955646E2A47BE38C3F98 /* Pods-virusTracker-virusTrackerUITests.release.xcconfig */,
+			);
+			name = "Pods-virusTracker-virusTrackerUITests";
+			path = "Target Support Files/Pods-virusTracker-virusTrackerUITests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				236FC0F528359228E285540ACE3F736D /* Products */,
+				2C0638FE73A0DA86770A45EDDECFB150 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F51343BB6B56AC837BE12A8CC0D7CE6E /* Pods-virusTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E06243D54A800F5E2D63DA8CF8AB3AB9 /* Pods-virusTrackerTests.modulemap */,
+				F19C73D0833B1788DD931D38D8E2843C /* Pods-virusTrackerTests-acknowledgements.markdown */,
+				AD4D0074C001C34891087F47CAF652A9 /* Pods-virusTrackerTests-acknowledgements.plist */,
+				D02EBC68F1222806E6B81867759DCFAE /* Pods-virusTrackerTests-dummy.m */,
+				6A0AC05F506FDAE3A3EB002BC4B21B75 /* Pods-virusTrackerTests-Info.plist */,
+				DEF34FC0B3AD9D68C38844A805704A50 /* Pods-virusTrackerTests-umbrella.h */,
+				209037B28CA20FF3E2BF97D2F04C4FB6 /* Pods-virusTrackerTests.debug.xcconfig */,
+				14CE00567A5EA8A53ADDABCDDE81F323 /* Pods-virusTrackerTests.release.xcconfig */,
+			);
+			name = "Pods-virusTrackerTests";
+			path = "Target Support Files/Pods-virusTrackerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		380156EF87F9064286BB1F2895B306D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257B5B7763D98751E644E37696BE7816 /* Pods-virusTracker-virusTrackerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B7DBBA1E7EE3681847767E91A8BEB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561CCA015B3AD4730668360372970761 /* Pods-virusTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC839256F1D6F490BF76AAAAEC54E76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028FE8698A46931D56AC520B043DDF01 /* Pods-virusTrackerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1120B4B007DA73F7FDB4680260D31B1F /* Pods-virusTracker-virusTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1011A35841A1EFE66BE56BCFD52FA297 /* Build configuration list for PBXNativeTarget "Pods-virusTracker-virusTrackerUITests" */;
+			buildPhases = (
+				380156EF87F9064286BB1F2895B306D9 /* Headers */,
+				5BD4818BE1F546823E6595062643C8D7 /* Sources */,
+				14CAB98A81B09432739BFAEDBD5603D9 /* Frameworks */,
+				48E2B31622D3F7EA05BF72A476FF629C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-virusTracker-virusTrackerUITests";
+			productName = "Pods-virusTracker-virusTrackerUITests";
+			productReference = FD5DE2CA7D84D38731ED16EB6C6475CB /* Pods_virusTracker_virusTrackerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		878DCD58BD20DF7BCA46FEA7898D97E2 /* Pods-virusTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3A29511B7F25DA1389FD649510E36C /* Build configuration list for PBXNativeTarget "Pods-virusTracker" */;
+			buildPhases = (
+				B1B7DBBA1E7EE3681847767E91A8BEB5 /* Headers */,
+				4317D7532D2D4B5E5CB24FC772197D84 /* Sources */,
+				F23EF13A368BF69E9F79259E5C935623 /* Frameworks */,
+				F787A19ECC77001C7DF8CDF1615B0C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-virusTracker";
+			productName = "Pods-virusTracker";
+			productReference = 0F00AF8ED867FD5CCE301B5600A4202B /* Pods_virusTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C55D32D233D6FB95DD66F80E16C179C9 /* Pods-virusTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C3B49483B5B211369CB7E02B49051BC /* Build configuration list for PBXNativeTarget "Pods-virusTrackerTests" */;
+			buildPhases = (
+				CBC839256F1D6F490BF76AAAAEC54E76 /* Headers */,
+				69B655A12495D3B6DF3385EE033F79D1 /* Sources */,
+				3008C0CFCA45FC80B8275E30D3777560 /* Frameworks */,
+				9CBDD3F8BC3874A34A5BEFB258C58ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960ED38E4746A4C8B5FD2481CAD3B68C /* PBXTargetDependency */,
+			);
+			name = "Pods-virusTrackerTests";
+			productName = "Pods-virusTrackerTests";
+			productReference = 645C843CA64E014DD1F48452E32DDD7A /* Pods_virusTrackerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 236FC0F528359228E285540ACE3F736D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				878DCD58BD20DF7BCA46FEA7898D97E2 /* Pods-virusTracker */,
+				1120B4B007DA73F7FDB4680260D31B1F /* Pods-virusTracker-virusTrackerUITests */,
+				C55D32D233D6FB95DD66F80E16C179C9 /* Pods-virusTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48E2B31622D3F7EA05BF72A476FF629C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBDD3F8BC3874A34A5BEFB258C58ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F787A19ECC77001C7DF8CDF1615B0C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4317D7532D2D4B5E5CB24FC772197D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE38E79765329E6B8BF8F54E37A55EF7 /* Pods-virusTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD4818BE1F546823E6595062643C8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1851E1E87BE75C0B5E5E9DDC447636 /* Pods-virusTracker-virusTrackerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B655A12495D3B6DF3385EE033F79D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E91F256EB736D289E7FCAB67E4BC59 /* Pods-virusTrackerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960ED38E4746A4C8B5FD2481CAD3B68C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-virusTracker";
+			target = 878DCD58BD20DF7BCA46FEA7898D97E2 /* Pods-virusTracker */;
+			targetProxy = AE3849D412EF92A04FD636A2C3AB69B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BC00B904CB5CDA507F2E5BDF1CC6740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CE00567A5EA8A53ADDABCDDE81F323 /* Pods-virusTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-virusTrackerTests/Pods-virusTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-virusTrackerTests/Pods-virusTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B86D24AA2FCD97B0CA8C4D9F676B100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CC106D69C80517E88F44992A339AFA /* Pods-virusTracker-virusTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-virusTracker-virusTrackerUITests/Pods-virusTracker-virusTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-virusTracker-virusTrackerUITests/Pods-virusTracker-virusTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		630CC20587F9993E67EBE129C7B2DDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77AD90BC3176955646E2A47BE38C3F98 /* Pods-virusTracker-virusTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-virusTracker-virusTrackerUITests/Pods-virusTracker-virusTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-virusTracker-virusTrackerUITests/Pods-virusTracker-virusTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7D9E6F0ED0E28B5E7D851A8595D3ED02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7770611B7BF1EA181B40747004BE04D3 /* Pods-virusTracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-virusTracker/Pods-virusTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-virusTracker/Pods-virusTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		85CCF98F2A5F9DC3F17162F7AABD6D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209037B28CA20FF3E2BF97D2F04C4FB6 /* Pods-virusTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-virusTrackerTests/Pods-virusTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-virusTrackerTests/Pods-virusTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4A23C8127002F1E27B71DB5677DA86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7877C4DCE1EA1E271168C15D156B2826 /* Pods-virusTracker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-virusTracker/Pods-virusTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-virusTracker/Pods-virusTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1011A35841A1EFE66BE56BCFD52FA297 /* Build configuration list for PBXNativeTarget "Pods-virusTracker-virusTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B86D24AA2FCD97B0CA8C4D9F676B100 /* Debug */,
+				630CC20587F9993E67EBE129C7B2DDCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C3B49483B5B211369CB7E02B49051BC /* Build configuration list for PBXNativeTarget "Pods-virusTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CCF98F2A5F9DC3F17162F7AABD6D4A /* Debug */,
+				0BC00B904CB5CDA507F2E5BDF1CC6740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3A29511B7F25DA1389FD649510E36C /* Build configuration list for PBXNativeTarget "Pods-virusTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9E6F0ED0E28B5E7D851A8595D3ED02 /* Debug */,
+				B4A23C8127002F1E27B71DB5677DA86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

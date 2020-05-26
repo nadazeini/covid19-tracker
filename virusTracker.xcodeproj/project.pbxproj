@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE401A64DF574A846E282205 /* Pods_virusTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D36608A7829B26265530E0 /* Pods_virusTracker.framework */; };
+		DC02480D51E46638C1F03EA8 /* Pods_virusTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD316B3015BC579D121FF016 /* Pods_virusTrackerTests.framework */; };
+		E37C3C5999F27ABAE124C9E4 /* Pods_virusTracker_virusTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5006D417A48B544CB8F5549E /* Pods_virusTracker_virusTrackerUITests.framework */; };
 		FA8A86472478B473000E72F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A86462478B473000E72F4 /* AppDelegate.swift */; };
 		FA8A86492478B473000E72F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A86482478B473000E72F4 /* SceneDelegate.swift */; };
 		FA8A864B2478B473000E72F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A864A2478B473000E72F4 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		FA8A86532478B47B000E72F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8A86512478B47B000E72F4 /* LaunchScreen.storyboard */; };
 		FA8A865E2478B47B000E72F4 /* virusTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A865D2478B47B000E72F4 /* virusTrackerTests.swift */; };
 		FA8A86692478B47B000E72F4 /* virusTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A86682478B47B000E72F4 /* virusTrackerUITests.swift */; };
+		FA8A86772478B6DB000E72F4 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A86762478B6DB000E72F4 /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25D36608A7829B26265530E0 /* Pods_virusTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_virusTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		370E47B030BE65D44D0871AE /* Pods-virusTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virusTracker.debug.xcconfig"; path = "Target Support Files/Pods-virusTracker/Pods-virusTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		4794CC06F1FD88605B97AAD0 /* Pods-virusTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virusTracker.release.xcconfig"; path = "Target Support Files/Pods-virusTracker/Pods-virusTracker.release.xcconfig"; sourceTree = "<group>"; };
+		4B233E8E6013D01041AA10A7 /* Pods-virusTracker-virusTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virusTracker-virusTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-virusTracker-virusTrackerUITests/Pods-virusTracker-virusTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5006D417A48B544CB8F5549E /* Pods_virusTracker_virusTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_virusTracker_virusTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B1FAEC394B24E77163096C /* Pods-virusTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virusTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-virusTrackerTests/Pods-virusTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDA5B3F5E804373F4744B4A3 /* Pods-virusTracker-virusTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virusTracker-virusTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-virusTracker-virusTrackerUITests/Pods-virusTracker-virusTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA8E1D244DC27E4E90A149EC /* Pods-virusTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-virusTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-virusTrackerTests/Pods-virusTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD316B3015BC579D121FF016 /* Pods_virusTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_virusTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8A86432478B473000E72F4 /* virusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = virusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8A86462478B473000E72F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA8A86482478B473000E72F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		FA8A86642478B47B000E72F4 /* virusTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = virusTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8A86682478B47B000E72F4 /* virusTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virusTrackerUITests.swift; sourceTree = "<group>"; };
 		FA8A866A2478B47B000E72F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8A86762478B6DB000E72F4 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE401A64DF574A846E282205 /* Pods_virusTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC02480D51E46638C1F03EA8 /* Pods_virusTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37C3C5999F27ABAE124C9E4 /* Pods_virusTracker_virusTrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78196335F9E5B6537FD8545A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25D36608A7829B26265530E0 /* Pods_virusTracker.framework */,
+				5006D417A48B544CB8F5549E /* Pods_virusTracker_virusTrackerUITests.framework */,
+				DD316B3015BC579D121FF016 /* Pods_virusTrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		781AD176200829ADCE6B4C9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				370E47B030BE65D44D0871AE /* Pods-virusTracker.debug.xcconfig */,
+				4794CC06F1FD88605B97AAD0 /* Pods-virusTracker.release.xcconfig */,
+				CDA5B3F5E804373F4744B4A3 /* Pods-virusTracker-virusTrackerUITests.debug.xcconfig */,
+				4B233E8E6013D01041AA10A7 /* Pods-virusTracker-virusTrackerUITests.release.xcconfig */,
+				DA8E1D244DC27E4E90A149EC /* Pods-virusTrackerTests.debug.xcconfig */,
+				81B1FAEC394B24E77163096C /* Pods-virusTrackerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FA8A863A2478B473000E72F4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				FA8A865C2478B47B000E72F4 /* virusTrackerTests */,
 				FA8A86672478B47B000E72F4 /* virusTrackerUITests */,
 				FA8A86442478B473000E72F4 /* Products */,
+				781AD176200829ADCE6B4C9F /* Pods */,
+				78196335F9E5B6537FD8545A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +148,7 @@
 				FA8A864F2478B47B000E72F4 /* Assets.xcassets */,
 				FA8A86512478B47B000E72F4 /* LaunchScreen.storyboard */,
 				FA8A86542478B47B000E72F4 /* Info.plist */,
+				FA8A86762478B6DB000E72F4 /* model.swift */,
 			);
 			path = virusTracker;
 			sourceTree = "<group>";
@@ -135,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA8A866D2478B47B000E72F4 /* Build configuration list for PBXNativeTarget "virusTracker" */;
 			buildPhases = (
+				436B5E893B9D02E1520DC405 /* [CP] Check Pods Manifest.lock */,
 				FA8A863F2478B473000E72F4 /* Sources */,
 				FA8A86402478B473000E72F4 /* Frameworks */,
 				FA8A86412478B473000E72F4 /* Resources */,
@@ -152,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA8A86702478B47B000E72F4 /* Build configuration list for PBXNativeTarget "virusTrackerTests" */;
 			buildPhases = (
+				8CA41200C967B6AB48F828E7 /* [CP] Check Pods Manifest.lock */,
 				FA8A86552478B47B000E72F4 /* Sources */,
 				FA8A86562478B47B000E72F4 /* Frameworks */,
 				FA8A86572478B47B000E72F4 /* Resources */,
@@ -170,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA8A86732478B47B000E72F4 /* Build configuration list for PBXNativeTarget "virusTrackerUITests" */;
 			buildPhases = (
+				8E81F7CDDFD78FDAB4420A7A /* [CP] Check Pods Manifest.lock */,
 				FA8A86602478B47B000E72F4 /* Sources */,
 				FA8A86612478B47B000E72F4 /* Frameworks */,
 				FA8A86622478B47B000E72F4 /* Resources */,
@@ -254,6 +300,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		436B5E893B9D02E1520DC405 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-virusTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CA41200C967B6AB48F828E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-virusTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E81F7CDDFD78FDAB4420A7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-virusTracker-virusTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA8A863F2478B473000E72F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +377,7 @@
 				FA8A864B2478B473000E72F4 /* ViewController.swift in Sources */,
 				FA8A86472478B473000E72F4 /* AppDelegate.swift in Sources */,
 				FA8A86492478B473000E72F4 /* SceneDelegate.swift in Sources */,
+				FA8A86772478B6DB000E72F4 /* model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +548,7 @@
 		};
 		FA8A866E2478B47B000E72F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 370E47B030BE65D44D0871AE /* Pods-virusTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +567,7 @@
 		};
 		FA8A866F2478B47B000E72F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4794CC06F1FD88605B97AAD0 /* Pods-virusTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +586,7 @@
 		};
 		FA8A86712478B47B000E72F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8E1D244DC27E4E90A149EC /* Pods-virusTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +609,7 @@
 		};
 		FA8A86722478B47B000E72F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B1FAEC394B24E77163096C /* Pods-virusTrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +632,7 @@
 		};
 		FA8A86742478B47B000E72F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA5B3F5E804373F4744B4A3 /* Pods-virusTracker-virusTrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +653,7 @@
 		};
 		FA8A86752478B47B000E72F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B233E8E6013D01041AA10A7 /* Pods-virusTracker-virusTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
