@@ -42,13 +42,13 @@ class SearchTableViewController: UITableViewController,UISearchResultsUpdating {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if(resultSearchController.isActive){
-            SearchTableViewController.selectedCountry = filteredData[indexPath.row].replacingOccurrences(of: " ", with: "-") as! String
+            SearchTableViewController.selectedCountry = filteredData[indexPath.row].replacingOccurrences(of: " ", with: "-") 
             print("selected")
             print(SearchTableViewController.selectedCountry)
             
         }
         else{
-        SearchTableViewController.selectedCountry = data[indexPath.row].replacingOccurrences(of: " ", with: "-") as! String
+            SearchTableViewController.selectedCountry = data[indexPath.row].replacingOccurrences(of: " ", with: "-") 
         print(SearchTableViewController.selectedCountry)
         }
         
