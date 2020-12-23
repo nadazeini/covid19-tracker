@@ -9,8 +9,6 @@
 import UIKit
 
 class SearchTableViewController: UITableViewController,UISearchResultsUpdating {
-   
-    //something great
     
     @IBOutlet weak var searchBar: UISearchBar!
     var data = countryList()
@@ -25,7 +23,7 @@ class SearchTableViewController: UITableViewController,UISearchResultsUpdating {
         resultSearchController = ({
           let controller = UISearchController(searchResultsController: nil)
                 controller.searchResultsUpdater = self
-                controller.dimsBackgroundDuringPresentation = false
+                controller.obscuresBackgroundDuringPresentation = false
                 controller.searchBar.sizeToFit()
                 tableView.tableHeaderView = controller.searchBar
                 return controller
