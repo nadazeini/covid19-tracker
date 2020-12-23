@@ -82,12 +82,12 @@ class CountryStatsViewController: UIViewController {
                     dateFormatter.dateFormat = "MM - dd - yyyy"
                     let dateDisplayed = dateFormatter.string(from: date)
                     countryStat.Date = dateDisplayed
-                    self.navigationItem.title = countryStat.Country.replacingOccurrences(of: "-", with: " ")
+//                    self.navigationItem.title = countryStat.Country.replacingOccurrences(of: "-", with: " ")
                     DispatchQueue.main.async {
-                        self.confirmedCases.text = String(countryStat.Confirmed)
-                        self.recoveredCases.text = String(countryStat.Recovered)
-                        self.deathsCases.text = String(countryStat.Deaths)
-                        self.activeCases.text = String(countryStat.Active)
+                        self.confirmedCases.text = String(format: "%d", locale: Locale.current, countryStat.Confirmed)
+                        self.recoveredCases.text = String(format: "%d", locale: Locale.current,countryStat.Recovered)
+                        self.deathsCases.text = String(format: "%d", locale: Locale.current,countryStat.Deaths)
+                        self.activeCases.text = String(format: "%d", locale: Locale.current,countryStat.Active)
                         self.latestDate.text = String(countryStat.Date)
                     }
                 } catch {
