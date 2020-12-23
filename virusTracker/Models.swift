@@ -14,6 +14,7 @@ struct Stat: Codable {
     var Active: Int
     var Recovered: Int
     var Deaths: Int
+    var Date: String
 }
 func countryList() -> [String] {
     var countries: [String] = []

@@ -70,8 +70,7 @@ class CountryStatsViewController: UIViewController {
                                 countryStat.Recovered = stat[stat.count-1].Recovered
                                 countryStat.Confirmed = stat[stat.count-1].Confirmed
                                 countryStat.Deaths = stat[stat.count-1].Deaths
-                                print("chnage")
-                                print(countryStat.Deaths)
+                                countryStat.Date = stat[stat.count-1].Date
                                 self.navigationItem.title = countryStat.Country.replacingOccurrences(of: "-", with: " ")
         //                        AppDelegate.stats.append(stat[stat.count-1])
                                 //added each stat to stats array of stat objects
