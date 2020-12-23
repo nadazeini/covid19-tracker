@@ -26,8 +26,8 @@ func countryList() -> [String] {
     return countries
 }
 func getStat(country: String) -> Stat {
-        let url = URL(string: "https://api.covid19api.com/live/country/\(country)")
-        var countryStat = Stat(Country: country, Confirmed: 0, Active: 0, Recovered: 0, Deaths: 0)
+        let url = URL(string: "https://api.covid19api.com/dayone/country/\(country)")
+    var countryStat = Stat(Country: country, Confirmed: 0, Active: 0, Recovered: 0, Deaths: 0, Date: "N/A")
 //        print(AppDelegate.stats.count)
         guard let requestUrl = url else { return countryStat; }
             // Create URL Request
@@ -48,10 +48,10 @@ func getStat(country: String) -> Stat {
                 let decoder = JSONDecoder()
                 // Convert HTTP Response Data to a simple String
                 if let data = data, let dataString = String(data: data, encoding: .utf8) {
-        //                print("Response data string:\n \(dataString)")
+                        print("Response data string:\n \(dataString)")
                     do{
                         let stat = try decoder.decode([Stat].self, from: dataString.data(using: .utf8)!) //array
-        //                    print(stat)
+                            print(stat)
                         if stat.count == 0 {
                             return
                         }
@@ -66,7 +66,6 @@ func getStat(country: String) -> Stat {
                         //added each stat to stats array of stat objects
                         
                     } catch {
-                        print("here");
                         print(error)
                     }
                     

@@ -32,14 +32,14 @@ class CountryStatsViewController: UIViewController {
         blackView.layer.cornerRadius = 10
 //        let countryStats: Stat = getStat(country: SearchTableViewController.selectedCountry)
         
-        let url = URL(string: "https://api.covid19api.com/live/country/\(SearchTableViewController.selectedCountry)")
-                var countryStat = Stat(Country: country, Confirmed: 0, Active: 0, Recovered: 0, Deaths: 0)
+        let url = URL(string: "https://api.covid19api.com/dayone/country/\(SearchTableViewController.selectedCountry)")
+        var countryStat = Stat(Country: country, Confirmed: 0, Active: 0, Recovered: 0, Deaths: 0, Date: "")
         //        print(AppDelegate.stats.count)
                 guard let requestUrl = url else {
-                    confirmedCases.text = "0"
-                    recoveredCases.text = "0"
-                    deathsCases.text = "0"
-                    activeCases.text = "0"
+                    confirmedCases.text = "N/A"
+                    recoveredCases.text = "N/A"
+                    deathsCases.text = "N/A"
+                    activeCases.text = "N/A"
                     return  }
                     // Create URL Request
                     var request = URLRequest(url: requestUrl)
@@ -62,11 +62,10 @@ class CountryStatsViewController: UIViewController {
                 //                print("Response data string:\n \(dataString)")
                             do{
                                 let stat = try decoder.decode([Stat].self, from: dataString.data(using: .utf8)!) //array
-                //                    print(stat)
+                                print(stat)
                                 if stat.count == 0 {
                                     return
                                 }
-                                print(stat[stat.count-1])
                                 countryStat.Active = stat[stat.count-1].Active
                                 countryStat.Recovered = stat[stat.count-1].Recovered
                                 countryStat.Confirmed = stat[stat.count-1].Confirmed
@@ -84,7 +83,6 @@ class CountryStatsViewController: UIViewController {
                                 }
                                 
                             } catch {
-                                print("here");
                                 print(error)
                             }
                             
