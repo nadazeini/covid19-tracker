@@ -16,6 +16,11 @@ struct Stat: Codable {
     var Deaths: Int
     var Date: String
 }
+struct WorldStat: Codable{
+    var TotalConfirmed: Int
+    var TotalRecovered: Int
+    var TotalDeaths: Int
+}
 func countryList() -> [String] {
     var countries: [String] = []
     for code in NSLocale.isoCountryCodes  {
@@ -29,7 +34,6 @@ func countryList() -> [String] {
 func getStat(country: String) -> Stat {
         let url = URL(string: "https://api.covid19api.com/dayone/country/\(country)")
     var countryStat = Stat(Country: country, Confirmed: 0, Active: 0, Recovered: 0, Deaths: 0, Date: "N/A")
-//        print(AppDelegate.stats.count)
         guard let requestUrl = url else { return countryStat; }
             // Create URL Request
             var request = URLRequest(url: requestUrl)
@@ -61,15 +65,11 @@ func getStat(country: String) -> Stat {
                         countryStat.Recovered = stat[stat.count-1].Recovered
                         countryStat.Confirmed = stat[stat.count-1].Confirmed
                         countryStat.Deaths = stat[stat.count-1].Deaths
-                        
-                        print(countryStat.Deaths)
-//                        AppDelegate.stats.append(stat[stat.count-1])
-                        //added each stat to stats array of stat objects
+                        countryStat.Date = stat[stat.count-1].Date
                         
                     } catch {
                         print(error)
                     }
-                    
                 }
             }
         task.resume()
